@@ -1,0 +1,5 @@
+cryptography>=42.0.5
+pyserial>=3.5    # Potentially useful if you consider serial communication, but not strictly needed for sockets.
+                 # We can remove it later if it's not used.
+# If you plan to use a GUI with Tkinter (which is built-in), you won't need a specific dependency here.
+# If you opt for a more advanced GUI library like PyQt or Kivy, you'd list them here.
